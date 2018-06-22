@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>排序算法</title>
+</head>
+<body>
+
+<script type="module">
+    import generateArray from "./array_generate.js";
+    import bubbleSort from "./bubble_sort.js";
+    import selectSort from "./select_sort.js";
+    import insertionSort from "./insertion_sort.js";
+    import heapSort from "./heap_sort.js";
+    let sortArr = generateArray(10);
+
+    // console.log(bubbleSort(sortArr));
+    // console.log(selectSort(sortArr));
+    // console.log(insertionSort(sortArr));
+    console.log(heapSort(sortArr));
+</script>
+</body>
+</html>
